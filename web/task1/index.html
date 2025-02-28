@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Mohamed Ahmed</h1>
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href = "#projects_details">projects_details</a></li>
+            <li><a href = "#multimedia">multimedia</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    <section id="#about">
+        <h2>About Me</h2>
+        <p>
+            I'm Mohamed Ahmed, a student at FCAI-CU. 
+            I am passionate about learning programming languages like C++ and Java. 
+            Currently, I am learning HTML to become a web developer.
+        </p>
+        <img src="my_profile.jpg" alt="My Profile" width="150">
+    </section>
+    <section id="#projects">
+        <h2>My Projects</h2>
+        <div class="project1">
+            <h3>1. Tasklist Project</h3>
+            <a href="https://github.com/mohamedahmed2005/Demo-Task-Manager" target="_blank">
+                View on GitHub
+            </a>
+            <p> this project aims to sort tasks on many ways</p>
+        </div>
+        <div class = "project2">
+            <h3>2. vole_machine Project</h3>
+            <a href="https://github.com/mohamedahmed2005/vole_machine" target = "_blank">
+                View on GitHub 
+            </a>
+            <p> this project aims to simulate vole_machine</p>
+        </div>
+        <div class = "project3">
+            <h3>3. Games</h3>
+            <a href="https://github.com/mohamedahmed2005/Assignment2_OOP_Board_Games" target="_blank">
+                View on GitHub
+            </a>
+            <p>this project aims to make Games with concept of OOP with C++</p>
+        </div>
+    </section>
+    <section id="skills">
+        <h3>My Skills</h3>
+        <ul>
+            <li>C++</li>
+            <li>Java</li>
+            <li>HTML & CSS</li>
+            <li>Object-Oriented Programming</li>
+        </ul>
+    </section>
+    <section id="projects_details">
+        <h3>Projects Details</h3>
+        <table border="2">
+            <tr>
+                <th>Project Name</th>
+                <th>Description</th>
+                <th>Technologies Used</th>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/mohamedahmed2005/Demo-Task-Manager" target="_blank">Tasklist Project</a></td>
+                <td>This project aims to sort tasks in multiple ways.</td>
+                <td>C++, OOP</td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/mohamedahmed2005/vole_machine" target="_blank">Vole Machine Project</a></td>
+                <td>A simulator for the Vole Machine.</td>
+                <td>C++, Qt</td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/mohamedahmed2005/Assignment2_OOP_Board_Games" target="_blank">Board Games</a></td>
+                <td>Implementing board games using OOP concepts.</td>
+                <td>C++, OOP</td>
+            </tr>
+        </table>
+    </section>
+    <section class = "multimedia">
+        <h3>multimedia</h3>
+        <h4>Watch my video</h4>
+        <iframe src="https://www.youtube.com/embed/zoJ4E7G4sl0" allowfullscreen></iframe>
+        <br>
+        <video width="320" height="240" controls autoplay muted>
+            <source src="ابتهال رمضان اشرق _ الشيخ نصر الدين طوبار.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>        
+    </section>
+    <section id="contact">
+        <h3>Contact Me</h3>
+        <form id="contactForm">
+            <label for="Name">Name:</label><br>
+            <input type="text" id="Name" name="Name" required><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message"required rows="8" cols="25" placeholder="Enter your message here..."></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+        <a href="https://example.com" target="_blank">External Website</a>
+        <a href="resume.pdf" download>Download Resume</a>
+    </footer>
+</body>
+</html>
