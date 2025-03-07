@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f1e7;
+    background-color: rgb(248,241,231);
     margin: 0;
     padding: 0;
     display: flex;
@@ -51,7 +51,7 @@ ul li::marker {
     left: 0;
 }
 .Preparation_time {
-    background-color: #f8ebf5;
+    background-color: rgb(248,235,245);
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 15px;
@@ -71,7 +71,7 @@ ul, ol {
 #Nutrition_table th {
     text-align: left;
     font-weight: normal;
-    color: #5a3826;
+    color: rgb(90,56,38);
     padding: 12px 0;
 }
 #Nutrition_table td {
